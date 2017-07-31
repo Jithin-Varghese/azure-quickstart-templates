@@ -10,7 +10,10 @@
       }
     },
     "adminPassword": {
-      "type": "securestring"
+      "type": "securestring",
+      "metadata": {
+        "description": "Linux VM User Password"
+      }
     },
     "dnsLabelPrefix": {
       "type": "string",
